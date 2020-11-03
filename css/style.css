@@ -28,6 +28,7 @@ nav .brand-logo {
 nav .brand-logo img {
   width: auto;
   height: 100%;
+  padding-bottom: 5px;
 }
 
 .burger-menu {
