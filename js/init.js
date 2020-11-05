@@ -34,6 +34,10 @@ function onBurgerClick() {
 }
 
 function main() {
+	// enable modals
+	const elems = document.querySelectorAll('.modal');
+    const instances = M.Modal.init(elems);
+
 	// quando #nav-burger-menu viene premuto
 	const burger = document.getElementById('nav-burger-menu');
 	burger.addEventListener('click', onBurgerClick);
