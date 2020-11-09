@@ -10,6 +10,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* HACK: hide sumome sharer over images */
+.sumome-image-sharer {
+  display: none !important;
+}
+
 nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
   height: 64px;
   line-height: 64px;
